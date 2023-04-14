@@ -1,7 +1,7 @@
 Demo of Jenkins with JCASC and JOBDSL.
 
 
-Configurations to add to **configuration_w_jcasc.yaml** : 
+**Configurations to add to *configuration_w_jcasc.yaml*:** 
 
 Specify Jenkins URL:
 
@@ -18,4 +18,10 @@ jenkins:
   systemMessage: "This Jenkins instance is configured with Jcasc plugin!!"
 ```
 
-Add user:
+Add user, agents and nodes:
+
+// TODO
+
+**Usful links:**
+- https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-setup-with-docker-and-jenkins-configuration-as-code
+
