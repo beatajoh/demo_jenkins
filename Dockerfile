@@ -2,7 +2,7 @@ FROM jenkins/jenkins:latest
 
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 
-COPY plugins_extra /usr/share/jenkins/ref/plugins_extra.txt
+COPY plugins_extra.txt /usr/share/jenkins/ref/plugins_extra.txt
 
 RUN jenkins-plugin-cli -f /usr/share/jenkins/ref/plugins_extra.txt
 
